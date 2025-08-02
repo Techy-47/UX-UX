@@ -5,6 +5,12 @@
       padding: 0;
       background-color: rgb(199, 161, 110);
 }
+.dancing-script- <uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 nav{
     padding: 10px 40px;
@@ -56,6 +62,7 @@ a{
     background-color: rgb(228, 199, 39);
     border-radius: 50%;
     margin: 20px auto;
+    
 }
 
 #aphoto{
@@ -69,19 +76,16 @@ img{
     height: 650px;
 }
 
-#aphoto h1{
-        padding-left: 70%;
-        padding-bottom: 0%;
-        font-size: 60px;
-        font-family: Dancing Script;
+#navig{
+    padding-top: 10px;
+    padding-bottom: 10pxpx;
+}
+#ex-logo{
+    padding-top: 60px;
+    align-items: center;
 }
 
-
-
-
-.dancing-script- <uniquifier> {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+#ex-logo a img{
+    height: 100px;
+    width: 200px;
 }
