@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 201, 241);
+    min-height: 100vh;
+}
+
+.main{
+    height: 90vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(73, 137, 231);
+    color: whitesmoke;
+    display: flex; 
+    flex-direction: column; 
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 233);
+}
+
+.login-button{
+    background-color: rgb(68, 132, 228) ;
+    border: 0px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer; /* this give that hand symbol  */
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.login-button:hover{
+    background-color: rgb(7, 79, 189);
+}
+
+.hrline{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(143, 143, 151);
+    font-size: 1em;
+    margin: 25px 0px;
+}
+
+.hrline::before,
+.hrline::after {
+    content: ''; /* Required for pseudo-elements */
+    flex-grow: 1; /* Make the pseudo-elements grow to fill space */
+    height:1px; /* The thickness of the line */
+    background-color: #ddd; /* A light grey for the line color */
+    margin: 0 10px; /* Space between the line and the text */
+}
+
+
+.logo-button {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 25px; 
+    margin-bottom: 25px; 
+}
+
+.logo-button button { /* Target buttons specifically inside .logo-button */
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Change to flex for perfect icon centering */
+    width: 45px; /* Slightly larger for better touch target */
+    height: 45px; /* Slightly larger for better touch target */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 50%; /* Make them perfectly circular */
+    background-color: rgb(255, 255, 255); /* White background */
+    cursor: pointer;
+    font-size: 1.2em; 
+}
